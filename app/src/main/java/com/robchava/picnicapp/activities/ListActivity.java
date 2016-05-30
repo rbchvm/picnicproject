@@ -170,14 +170,6 @@ public class ListActivity extends BaseActivity implements View.OnClickListener {
                 e.printStackTrace();
             }
 
-
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-
             if (returnObject != null) {
                 final HashMap<String, ArrayList<Product>> allData = (HashMap<String, ArrayList<Product>>) returnObject;
                 return allData.get(Product.PRODUCT_LIST_KEY);
