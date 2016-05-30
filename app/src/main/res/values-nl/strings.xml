@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rob\'s Picnic App</string>
+
+    <!-- Menu -->
+    <string name="action_refresh">Vernieuwen</string>
+    <string name="refresh">Verfris functionaliteit binnenkort!</string>
+
+    <!-- General use strings -->
+    <string name="loading">De gegevens worden geladen, even geduld aub.</string>
+    <string name="data_download_error">Kan deze informatie te downloaden. Selecteer Vernieuwen in het menu om opnieuw te proberen.</string>
+
+    <!-- Product listview strings -->
+    <string name="product_listview_image_content_description">Productafbeelding</string>
+</resources>

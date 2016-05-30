@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_wrapper"
+    android:background="@color/product_listview_item_background"
+    android:orientation="vertical"
+    android:padding="@dimen/product_listview_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        tools:background="#555"
+        tools:src="@drawable/placeholder"
+        android:contentDescription="@string/product_listview_image_content_description"
+        android:layout_marginBottom="@dimen/product_listview_vertical_margin"
+        android:id="@+id/product_image"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <TextView
+        tools:text="Product Name Here"
+        android:id="@+id/product_name"
+        android:textSize="@dimen/product_listview_product_name_text_size"
+        android:layout_marginBottom="@dimen/product_listview_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        tools:text="¢1.500"
+        android:id="@+id/product_price"
+        android:textSize="@dimen/product_listview_product_price_text_size"
+        android:padding="@dimen/product_listview_product_price_padding"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:background="@drawable/pricetag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

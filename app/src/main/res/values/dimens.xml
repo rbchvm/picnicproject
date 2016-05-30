@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+
+    <!-- Product RecyclerView item layout -->
+    <dimen name="product_listview_padding">12dp</dimen>
+    <dimen name="product_listview_vertical_margin">10dp</dimen>
+    <dimen name="product_listview_product_name_text_size">18sp</dimen>
+    <dimen name="product_listview_product_price_text_size">22sp</dimen>
+    <dimen name="product_listview_product_price_padding">10dp</dimen>
+
+    <!-- Product detail view layout -->
+    <dimen name="product_detailview_vertical_margin">10dp</dimen>
+    <dimen name="product_detailview_product_name_text_size">18sp</dimen>
+    <dimen name="product_detailview_product_description_text_size">16sp</dimen>
+    <dimen name="product_detailview_product_price_text_size">22sp</dimen>
+    <dimen name="product_detailview_product_price_padding">10dp</dimen>
+    <dimen name="product_detailview_image_margin">10dp</dimen>
+
+</resources>

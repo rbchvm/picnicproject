@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rob\'s Picnic App</string>
+
+    <!-- Menu -->
+    <string name="action_refresh">Refresh</string>
+    <string name="refresh">Refresh functionality coming soon!</string>
+
+    <!-- General use strings -->
+    <string name="loading">Loading information, please wait.</string>
+    <string name="data_download_error">Unable to download this information. Please select Refresh from the menu to try again.</string>
+
+    <!-- Product listview strings -->
+    <string name="product_listview_image_content_description">Product image</string>
+
+</resources>
